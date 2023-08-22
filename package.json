@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "start": "SET NODE_ENV=dev && node server.js",
+    "test": "mocha testdodon.js --timeout 600000"
+  },
+  "devDependencies": {
+    "chakram": "^1.5.0"
+  },
+  "dependencies": {
+    "ext-ip": "^0.3.9",
+    "ip": "^1.1.8",
+    "ipware": "^2.0.0",
+    "public-ip": "^6.0.1",
+    "request-ip": "^3.3.0"
+  }
+}
